@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Escape Room</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+<header>
+    <!--    Menu Empieza    -->
+    <nav class="stroke">
+        <a href="#"><img id="logo-img" src="img/escape-room-logo.png" alt="logo"/></a>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about-us">Acerca de</a></li>
+            <li><a href="#rooms">Lista de Salas</a></li>
+            <li><a href="#promos">Promociones</a></li>
+            <li><a href="#contact-section">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <!--    Banner Empieza  -->
+    <div class="banner-area" id="home">
+        <div id="particles-js"></div>
+        <div class="banner-table">
+            <div class="banner-table-cell">
+                <div class="welcome-text">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <section class="intro animate-scale wow bounceInDown">
+                                    <h3>Bienvenido a</h3>
+                                    <h1 class="ah-headline">
+                                        <span>
+                                            <b>Escape Room</b>
+                                        </span>
+                                    </h1>
+                                    <a href="#contact-section" class="banner-btn">Reservar sala</a>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+<!--    Botón para el scroll hacia arriba   -->
+    <button onclick="topFunction()" id="scroll-btn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+    <!--    Sección Acerca de   -->
+    <section class="about-us" id="about-us">
+        <div class="about-us-content wow slideInLeft">
+            <h3>Acerca de nosotros</h3>
+            <p>
+                En Escape Room ofrecemos una alternativa de entretenimiento inteligente, compuesta por
+                diferentes
+                salas temáticas en las que tendrán un máximo de 60 minutos para escapar de ellas. En esta cuenta
+                regresiva,
+                nuestras salas proponen un desafío en el que ponen a prueba el intelecto personal y que sólo lograrán
+                superarlo a través de la puesta en marcha de la lógica, la creatividad, la destreza mental, la
+                comunicación
+                y el trabajo en equipo.
+                <br><br>
+                <i class="fas fa-users"></i>
+                Máximo 6 personas por grupo.
+            </p>
+        </div>
+        <div class="about-us-img wow slideInRight">
+            <img src="img/persons-scape.jpg" alt="">
+            <div class="bottom-wave" style="height: 110px; overflow: hidden;">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C175.78,214.63 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                          style="stroke: none; fill: #000000;"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="card-about-us wow jackInTheBox">
+            <h4>Para todas las edades</h4>
+            <p>Presentamos de todo tipo de cuartos de escape, ideales para todas las edades.</p>
+        </div>
+        <div class="card-about-us wow jackInTheBox">
+            <h4>Popular</h4>
+            <p>Recientemente se ha nombrado de los mejores Escapes Rooms en Nicaragua.</p>
+        </div>
+        <div class="card-about-us wow jackInTheBox">
+            <h4>Temáticas variadas</h4>
+            <p>Inspirado en los más populares y actuales libros, películas, videojuegos, entre otros.</p>
+        </div>
+    </section>
+
+    <!--    galería de salas    -->
+
+        <section class="rooms-gallery-container" id="rooms">
+            <h3 class="wow slideInLeft">Nuestras Salas</h3>
+            <article class="gallery-row">
+                <div class="gallery-column wow fadeInUp">
+                    <figure class="gallery-img">
+                        <img src="img/jumanji.jpg" alt="sample108"/>
+                        <figcaption>
+                            <h3>Jumanji</h3>
+                            <p>¡Piérdete en la naturaleza y disfruta de un juego que extiende la narrativa de la secuela
+                                de
+                                Jumanji y rinde homenaje al original también! ¡Una aventura en el mundo de Jumanji con
+                                tus
+                                amigos y familiares está garantizada para ser una experiencia que nunca olvidarás!</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+                <div class="gallery-column wow fadeInUp">
+                    <figure class="gallery-img">
+                        <img src="img/titanic.jpg" alt="sample108"/>
+                        <figcaption>
+                            <h3>Titanic</h3>
+                            <p>Su tripulación se ofrece como voluntaria para navegar por las profundidades del Titanic
+                                con
+                                la esperanza de activar controles que salvarán la vida de los muchos desvalidos en este
+                                barco que se hunde. Su destino está en tus manos. La mejor de las suertes.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+                <div class="gallery-column wow fadeInUp">
+                    <figure class="gallery-img">
+                        <img src="img/time-machine.jpg" alt="sample108"/>
+                        <figcaption>
+                            <h3>Máquina del tiempo</h3>
+                            <p>Has sido invitado a una de las mentes más brillantes de nuestro tiempo. Nikola Tesla le
+                                da la
+                                bienvenida dentro de su espacio de trabajo, un lugar donde las chispas vuelan y el
+                                tiempo se
+                                detiene. Solo sepa que el tiempo corre mientras busca uno de sus inventos más secretos y
+                                preciados.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+                <div class="gallery-column wow fadeInUp">
+                    <figure class="gallery-img">
+                        <img src="img/orfanato.jpg" alt="sample108"/>
+                        <figcaption>
+                            <h3>El Orfanato</h3>
+                            <p>Cállate, no querrás despertarlos. Sé amable, no querrás hacerlos enojar. Ten miedo, te
+                                están
+                                esperando. El Orfanato de Fernvale se encargará de todas las almas solitarias que
+                                necesiten
+                                cuidados. ¿Necesitas cuidados? ¿Los necesitas, cierto?</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+                <div class="gallery-column wow fadeInUp">
+                    <figure class="gallery-img">
+                        <img src="img/da-vinci.jpg" alt="sample108"/>
+                        <figcaption>
+                            <h3>El secreto de Da Vinci</h3>
+                            <p>Después de la muerte de Da Vinci, le dejó a su alumno favorito, Salai, un regalo. Este
+                                regalo
+                                fue más grande de lo que cualquiera podría sospechar, una habitación secreta llena de
+                                algunos de los acertijos y rompecabezas más desafiantes conocidos por el hombre. Es el
+                                último misterio sin resolver de Da Vinci y ahora tienes la oportunidad de desentrañar
+                                algunos de sus mejores trabajos.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+                <div class="gallery-column wow fadeInUp">
+                    <figure class="gallery-img">
+                        <img src="img/Alice.jpg" alt="sample108"/>
+                        <figcaption>
+                            <h3>Alicia en el país de las Maravillas</h3>
+                            <p>Alice está a punto de ir a juicio, una muy injusta que puede terminar con la frase
+                                "¡Fuera de
+                                control!". Su único deber es asegurarse de que Alice esté sana y salva en el país de las
+                                maravillas.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+                </div>
+            </article>
+        </section>
+    <!--carousel de promociones -->
+    <section class="promotions" id="promos">
+        <div class="info-page">
+            <h1 class="wow slideInLeft">Promociones</h1>
+            <h3 class="wow slideInRight">Días con excelentes promociones para disfrutar con tus seres queridos</h3>
+        </div>
+        <div class="carousel">
+            <div class="info-content">
+                <div class="carousel-body animate">
+                    <img class="img animate carousel-item" src="img/1.jpg"/>
+                    <img class="img animate carousel-item" src="img/2.jpg"/>
+                    <img class="img animate carousel-item" src="img/3.jpg"/>
+                    <img class="img animate carousel-item" src="img/4.jpg"/>
+                    <img class="img animate carousel-item" src="img/5.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    Sección de contacto-->
+    <section id="contact-section" class="wow fadeInLeftBig">
+        <div class="contact-us">
+            <div class="title">
+                <h1>Contáctate con nosotros</h1>
+            </div>
+            <div class="form">
+                <div class="form-items">
+                    <input type="text" class="input" placeholder="Nombre">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="form-items">
+                    <input type="text" class="input" placeholder="Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-items">
+                    <textarea class="input message" cols="30" rows="10" placeholder="Mensaje....."></textarea>
+                </div>
+            </div>
+
+            <div class="btn">
+                Enviar
+                <i class="fas fa-arrow-right"></i>
+            </div>
+
+            <div class="social-icons">
+                <div class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="google">
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-contact">
+        <div>
+            <div style="width: 33%; float: left;">
+                <h6>¡Suscribete!</h6>
+                <div class="form-items">
+                    <input type="text" class="input" placeholder="Email">
+                </div>
+                <div class="btn">
+                    Suscribirse
+                </div>
+            </div>
+            <div style="width: 33%; float: left;" id="social">
+                <h6 id="social-title">Redes Sociales</h6>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div style="width: 33%; float: left;" id="logo">
+                <a href="#footer-contact"><img src="img/escape-room-logo.png" width="175" height="60"/></a>
+                <p>Copyright &copy; 2019 All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/scroll-button.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/carousel.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>
